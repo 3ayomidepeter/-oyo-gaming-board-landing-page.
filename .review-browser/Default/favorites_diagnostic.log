@@ -1,0 +1,18 @@
+2026-09-29 11:13:47.802: [INFO] CurrentProfilePath: C:\Users\USER\Downloads\oyo-gaming-board-landing-page\.review-browser\Default
+2026-09-29 11:13:47.802: [INFO] Profiles total count: 1
+2026-09-29 11:13:47.802: [INFO] Profile: name=Profile 1 path=C:\Users\USER\Downloads\oyo-gaming-board-landing-page\.review-browser\Default lastActive=2026-09-29T10:54:58.230Z
+2026-09-29 11:13:47.802: [INFO] LastUsedProfileDir: C:\Users\USER\Downloads\oyo-gaming-board-landing-page\.review-browser\Default
+2026-09-29 11:13:47.802: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\USER\Downloads\oyo-gaming-board-landing-page\.review-browser\Default lastActive=2026-09-29T10:54:58.230Z
+2026-09-29 11:13:47.802: [INFO] VisibilityChanged: 0
+2026-09-29 11:13:47.904: [INFO] OnDoneLoading sync enabled: 0
+2026-09-29 11:13:47.904: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-29 11:13:47.904: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-29 11:13:47.904: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-29 11:13:47.908: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-29 11:13:54.489: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-29 11:13:54.498: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-29 11:13:54.507: [INFO] Primary account changed.
+2026-09-29 11:13:54.507: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-09-29 11:13:54.533: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-29 11:14:03.215: [INFO] Sync initialization duration: 8186ms
+2026-09-29 11:18:32.048: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
