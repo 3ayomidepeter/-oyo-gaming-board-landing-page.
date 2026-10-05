@@ -210,7 +210,6 @@ if (rsvpForm) {
     const org = document.getElementById('org').value.trim();
     const phone = document.getElementById('phone').value.trim();
     const email = document.getElementById('email').value.trim();
-    const guests = document.getElementById('guests').value;
     const days = [];
     if (document.getElementById('day1chk').checked) days.push(document.getElementById('day1chk').value);
     if (document.getElementById('day2chk').checked) days.push(document.getElementById('day2chk').value);
@@ -230,8 +229,7 @@ if (rsvpForm) {
     msg += "Organisation: " + org + "\n";
     msg += "Phone: " + phone + "\n";
     if (email) msg += "Email: " + email + "\n";
-    msg += "Attending: " + days.join(" & ") + "\n";
-    msg += "Number attending: " + guests;
+    msg += "Attending: " + days.join(" & ");
 
     const url = "https://wa.me/" + RSVP_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
     openWhatsApp(url, document.getElementById('rsvp-status'));
