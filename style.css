@@ -254,6 +254,10 @@ h1,h2,h3,h4{font-weight:500;line-height:1.2}button,input,select,textarea{font:in
 .price-list a{color:var(--green);text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px}
 .price-list a:hover{text-decoration-color:currentColor}
 .modal-backdrop{transition:none}
+.magazine-footer-link{margin:18px 0!important}
+.magazine-footer-link a{display:inline-flex;align-items:center;gap:8px;color:#e2cc8e;font-size:.85rem;font-weight:600;text-underline-offset:4px}
+.magazine-footer-link a:hover{text-decoration:underline}
+.magazine-footer-link a:focus-visible{outline:2px solid #e2cc8e;outline-offset:4px}
 /* DIRECTOR-GENERAL FEATURE */
 .dg-section{position:relative;overflow:hidden;padding:clamp(64px,8vw,112px) 0;background:#f5f4ed;border-top:1px solid #e7e3d4;border-bottom:1px solid #e7e3d4}
 .dg-section::after{content:"";position:absolute;width:430px;height:430px;right:-180px;top:-215px;border:1px solid rgba(201,162,39,.25);border-radius:50%;box-shadow:0 0 0 38px rgba(201,162,39,.035),0 0 0 78px rgba(201,162,39,.025);pointer-events:none}
