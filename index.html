@@ -98,7 +98,7 @@
           <a href="#hotels">Hotels</a>
           <a href="#sponsors">Partners</a>
           <a href="#faq">FAQ</a>
-          <a href="#rsvp" class="btn btn-primary nav-cta">Confirm Attendance</a>
+          <a href="#rsvp" class="btn btn-primary nav-cta">RSVPs Closed</a>
         </nav>
       </div>
     </header>
@@ -120,7 +120,7 @@
           </p>
           <div class="hero-btns">
             <a href="#rsvp" class="btn btn-gold"
-              >Confirm Attendance <span aria-hidden="true">↗</span></a
+              >RSVPs Closed <span aria-hidden="true">↗</span></a
             >
             <a href="#programme" class="hero-link"
               >Explore the programme <span aria-hidden="true">↓</span></a
@@ -837,116 +837,27 @@
         </div>
       </section>
 
-      <!-- RSVP -->
+      <!-- Registration closed -->
       <section class="section rsvp" id="rsvp">
         <div class="container">
           <div class="section-header">
-            <span class="eyebrow">Invited Guests</span>
-            <h2>Confirm Your Attendance</h2>
+            <span class="eyebrow">Thank You for Your Interest</span>
+            <h2>RSVPs Are Closed</h2>
             <p>
-              This event is strictly by invitation. If you have received an
-              invitation, kindly confirm your availability below.
+              Thanks for your interest — RSVPs have closed. We look forward to
+              welcoming our registered guests.
             </p>
           </div>
-
-          <form class="rsvp-form" id="rsvp-form">
-            <p class="form-intro">Your place at the conversation.</p>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="fullname">Full Name *</label>
-                <input
-                  type="text"
-                  id="fullname"
-                  autocomplete="name"
-                  placeholder="Enter your full name"
-                  required
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="org">Organisation *</label>
-                <input
-                  type="text"
-                  id="org"
-                  autocomplete="organization"
-                  placeholder="Company / organisation"
-                  required
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="phone">Phone Number *</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  autocomplete="tel"
-                  placeholder="e.g. 0803 000 0000"
-                  required
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input
-                  type="email"
-                  id="email"
-                  autocomplete="email"
-                  placeholder="you@example.com"
-                />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <span class="field-label" id="attendance-label"
-                  >Which day(s) will you attend? *</span
-                >
-                <div
-                  class="checkbox-group"
-                  role="group"
-                  aria-labelledby="attendance-label"
-                >
-                  <label
-                    ><input
-                      type="checkbox"
-                      id="day1chk"
-                      value="Day 1 - Welcome cocktail party (28th Oct)"
-                    />
-                    Day 1 — Welcome cocktail party</label
-                  >
-                  <label
-                    ><input
-                      type="checkbox"
-                      id="day2chk"
-                      value="Day 2 - Forum & Award Night (29th Oct)"
-                    />
-                    Day 2 — Forum &amp; Award Night</label
-                  >
-                </div>
-              </div>
-            </div>
-            <!-- <div class="form-row">
-              <div class="form-group">
-                <label for="guests">Number Attending</label>
-                <select id="guests">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
-            </div> -->
-            <button type="submit" class="btn btn-gold btn-block">
-              Continue to WhatsApp ↗
-            </button>
-            <p class="form-status" id="rsvp-status" role="status"></p>
-            <p class="rsvp-note">
-              Submitting opens WhatsApp with your details pre-filled, ready to
-              send to the Event Secretariat.
+          <div class="registration-closed" role="status">
+            <span class="closed-mark" aria-hidden="true">✓</span>
+            <p class="closed-kicker">Governing for Growth · 2026</p>
+            <h3>We’re looking forward to seeing you.</h3>
+            <p>
+              Attendance is reserved for guests who have already registered.
+              Thank you for your interest in joining us.
             </p>
-          </form>
+            <a class="closed-link" href="#programme">View the event programme <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
       </section>
 
@@ -1268,9 +1179,9 @@
               <summary>Do I need to confirm my attendance?</summary>
               <div class="faq-content">
                 <p>
-                  Yes. If you have received an invitation, please confirm your
-                  availability using the form above so the Secretariat can plan
-                  seating, catering and materials accordingly.
+                  Registration has closed, so attendance confirmations are no
+                  longer being accepted. We look forward to welcoming everyone
+                  who has already registered.
                 </p>
               </div>
             </details>
